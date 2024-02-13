@@ -7,11 +7,11 @@ void increaseCounter_local();
 void increaseCounter_static();
 void increaseCounter_pointer(int *counter_p);
 
-
+// Global Variable: Anyone can Access it.
 int n = 0;
 
 int main(void) {
-
+    //
     int counter = 0;
 
     while(n <2) {
